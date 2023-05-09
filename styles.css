@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+@keyframes animate-content {
+  0% {content: "JiU says 감사합니다 :)"; opacity: 0;}
+  2% {content: "JiU says 감사합니다 :)"; opacity: 1;}
+  12% {content: "JiU says 감사합니다 :)"; opacity: 1;}
+  14% {content: "JiU says 감사합니다 :)"; opacity: 0;}
+
+  15% {content: "SuA says 고맙습니다 ;-;"; opacity: 0}
+  17% {content: "SuA says 고맙습니다 ;-;"; opacity: 1}
+  26% {content: "SuA says 고맙습니다 ;-;"; opacity: 1}
+  28% {content: "SuA says 고맙습니다 ;-;"; opacity: 0}
+
+  29% {content: "Dami says 고마워요 :))"; opacity: 0}
+  31% {content: "Dami says 고마워요 :))"; opacity: 1}
+  40% {content: "Dami says 고마워요 :))"; opacity: 1}
+  42% {content: "Dami says 고마워요 :))"; opacity: 0}
+
+  43% {content: "Siyeon says Thank You!"; opacity: 0}
+  45% {content: "Siyeon says Thank You!"; opacity: 1}
+  54% {content: "Siyeon says Thank You!"; opacity: 1}
+  56% {content: "Siyeon says Thank You!"; opacity: 0}
+
+  57% {content: "Yoohyeon says Thanks >///<"; opacity: 0}
+  59% {content: "Yoohyeon says Thanks >///<"; opacity: 1}
+  68% {content: "Yoohyeon says Thanks >///<"; opacity: 1}
+  70% {content: "Yoohyeon says Thanks >///<"; opacity: 0}
+
+  71% {content: "Gahyeon says 고마워 T-T"; opacity: 0}
+  73% {content: "Gahyeon says 고마워 T-T"; opacity: 1}
+  82% {content: "Gahyeon says 고마워 T-T"; opacity: 1}
+  84% {content: "Gahyeon says 고마워 T-T"; opacity: 0}
+
+  85% {content: "Handong says 谢谢"; opacity: 0}
+  87% {content: "Handong says 谢谢"; opacity: 1}
+  98% {content: "Handong says 谢谢"; opacity: 1}
+  100% {content: "Handong says 谢谢"; opacity: 0}
+}
+
+@keyframes animate-background-color {
+  0% {background-color: rgb(90, 20, 70);}
+  13% {background-color: rgb(90, 20, 70);}
+
+  16% {background-color: rgb(190, 210, 250);}
+  28% {background-color: rgb(190, 210, 250);}
+  
+  31% {background-color: rgb(20, 70, 100);}
+  42% {background-color: rgb(20, 70, 100);}
+
+  45% {background-color: rgb(120, 20, 20);}
+  56% {background-color: rgb(120, 20, 20);}
+
+  59% {background-color: rgb(230,190,138);}
+  70% {background-color: rgb(230,190,138)}
+
+  73% {background-color: rgb(0, 180, 180);}
+  84% {background-color: rgb(0, 180, 180);}
+
+  87% {background-color: rgb(0, 120, 140);}
+  100% {background-color: rgb(0, 120, 140);}
+}
+
+@keyframes animate-background-image {
+  0% {background-image: var(--background-1);}
+  13% {background-image: var(--background-1);}
+
+  16% {background-image: var(--background-2);}
+  28% {background-image: var(--background-2);}
+  
+  31% {background-image: var(--background-3);}
+  42% {background-image: var(--background-3);}
+
+  45% {background-image: var(--background-4);}
+  56% {background-image: var(--background-4);}
+
+  59% {background-image: var(--background-5);}
+  70% {background-image: var(--background-5);}
+
+  73% {background-image: var(--background-6);}
+  84% {background-image: var(--background-6);}
+
+  87% {background-image: var(--background-7);}
+  100% {background-image: var(--background-7);}
+}
+
+:root {
+  --background-1: url("https://lh3.googleusercontent.com/drive-viewer/AFGJ81ppNaFiu0D-EqrR1gf7IOCiHKTJA6n74KwQ2FrN-xUFMRmW6673ZxCYgh-BLL4Qp9YOjOXo8NrhaLgqx_c1ADBtAAfsjA=s1600");
+  --background-2: url("https://lh3.googleusercontent.com/drive-viewer/AFGJ81r8vg-wDM8sJ3LZMMeLyyZWfqC2vPP07B_bFInOOmvRFLNLn7LzwZMFme2YnwW_-tgrW5pmxtMzE6XPWQ6p_3RqiHapmA=s1600");
+  --background-3: url("https://lh3.googleusercontent.com/drive-viewer/AFGJ81q6_yeyoZVZO7muL3Xhw8n4_yfPbBLL_gD_vlM7vuoqNQIGC3JvqVu0sl0MoskuConnxykHoWjuON2BeS-c7ehua3CgQA=s1600");
+  --background-4: url("https://lh3.googleusercontent.com/drive-viewer/AFGJ81r4_CxE67n8xKB-N_Q533_CmMH-AN_WzeS8nZUqhLqHxAkkYFu32iQIlWi9WTntpCneUvkTt-IgIrookGAQXnT0taupCw=s1600");
+  --background-5: url("https://lh3.googleusercontent.com/drive-viewer/AFGJ81oEWzn32r3SLxvMJDGDMzcfYBt_af_6Cm-K6LzmFNPqo8-rd-be1aOhLg0sHTrOqeT7abu1ywHz3Dhnct-Qv65wDL83=s1600");
+  --background-6: url("https://lh3.googleusercontent.com/drive-viewer/AFGJ81rqo6MZq-xI89aEHWV-0lO-6fZc1zuB4uPLZ1Hq-0MxXCD2QDj3AKYyJUlXzquhNi6T6BS6jwtZIZQGYRJIs3XmH7w-nA=s1600");
+  --background-7: url("https://lh3.googleusercontent.com/drive-viewer/AFGJ81rs1dPmQAC11bhAtTKk_GVN1_VJS7wUzbpoA7HVrdHWmndATSOqLHJMLmhSJ9KARA0AyKct4Bv_eBsENi_23_0KW3fhJQ=s1600");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #ffffff;
+  margin: 0;
+}
+
+#member-content::before {
+  content: "JiU says 감사합니다";
+  opacity: 0;
+  animation: animate-content infinite 30s;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  animation: animate-background-image infinite 30s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  font-weight: bold;
+  line-height: 1;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 40%;
+  margin: 0rem 1rem;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 0 1 rem;
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+.header {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-style: italic;
+}
+
+.clue {
+  margin-left: 0.25rem;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* form */
+
+form {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2rem 0.5rem;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2rem;
+  }
+}
+
+.form-group {
+  margin: 0 auto 1rem auto;
+  padding: 0.25rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #ffffff;
+  background-clip: padding-box;
+}
+
+.form-control:focus {
+  border-color: #000000;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 255, 255, 0.25);
+}
+
+.input-radio,
+.input-checkbox {
+  display: flex;
+  margin-right: 0.625rem;
+  min-height: 1rem;
+  min-width: 1rem;
+}
+
+.input-textarea {
+  min-height: 60px;
+  width: 100%;
+  padding: 0.5rem;
+  resize: vertical;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  animation: animate-background-color infinite 30s;
+  color: inherit;
+  cursor: pointer;
+}
+
+#title {
+  display: none;
+}

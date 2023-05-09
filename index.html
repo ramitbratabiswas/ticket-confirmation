@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Dreamcatcher Ticket Purchase Confirmation</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="survey-form">
+        <header class="header">
+        <h1 id="title">fake title</h1>
+
+<h1><span id="member-content"></span></h1>
+        <p id="description" class="description">
+          You booked tickets for 22.08.2022, 8:00 PM PT
+        </p>
+      </header>
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+          />
+        </div>
+
+        <div class="form-group">
+          <p>Which ticket type did you choose?</p>
+          <label>
+            <input
+              name="ticket-type"
+              value="vip"
+              type="radio"
+              class="input-radio"
+              checked
+            />VIP</label
+          >
+          <label>
+            <input
+              name="ticket-type"
+              value="premium"
+              type="radio"
+              class="input-radio"
+            />Premium</label
+          >
+
+          <label
+            ><input
+              name="ticket-type"
+              value="general"
+              type="radio"
+              class="input-radio"
+            />General</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>Which of these tracks are you most excited for?</p>
+          <select id="dropdown" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="piri">PIRI</option>
+            <option value="fly-high">Fly High</option>
+            <option value="chase-me">Chase Me</option>
+            <option value="what">WHAT</option>
+            <option value="full-moon">Full Moon</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            Do you want any of these add-ons?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+
+          <label><input
+              name="prefer"
+              value="fansign"
+              type="checkbox"
+              class="input-checkbox"
+            />Fansign (+ 50 CA$)</label>
+          <label><input
+              name="prefer"
+              value="single-photo"
+              type="checkbox"
+              class="input-checkbox"
+            />Single Photo (+ 60 CA$)</label>
+          <label><input
+              name="prefer"
+              value="group-photo"
+              type="checkbox"
+              class="input-checkbox"
+            />Group Photo (+ 80 CA$)</label>
+        </div>
+
+        <div class="form-group">
+          <p>Any health accommodations or dietary restrictions?</p>
+          <textarea
+            id="health"
+            class="input-textarea"
+            name="health"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
